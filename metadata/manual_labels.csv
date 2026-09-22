@@ -1,0 +1,15 @@
+filename,manual_status,manual_reason
+S001_S01_down_normal.jpeg,ACCEPT,
+S001_S01_far_normal_001.jpeg,ACCEPT,
+S001_S01_far_normal_002.jpeg,REJECT,face_too_small
+S001_S01_frontal_dark_001.jpeg,REJECT,underexposed
+S001_S01_frontal_lightside.jpeg,ACCEPT,
+S001_S01_frontal_medium_dark_001.jpeg,ACCEPT,
+S001_S01_frontal_medium_light.jpeg,ACCEPT,
+S001_S01_frontal_normal_001.jpeg,ACCEPT,
+S001_S01_frontal_normal_cropped_001.jpeg,REJECT,invalid_framing
+S001_S01_frontal_normal_mediumblur_001.jpeg,REJECT,blurry
+S001_S01_frontal_normal_slightlyblur_001.jpeg,REJECT,blurry
+S001_S01_frontal_normal_veryblur_001.jpeg,REJECT,blurry
+S001_S01_leftside_normal_001.jpeg.jpeg,ACCEPT,
+S001_S01_up_normal_001.jpeg,REJECT,

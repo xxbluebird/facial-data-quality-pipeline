@@ -1,0 +1,14 @@
+filename,read_status,width,height,brightness,blur_score
+S001_S01_down_normal.jpeg,OK,960,1280,171.26,13.98
+S001_S01_far_normal_001.jpeg,OK,960,1280,177.12,22.67
+S001_S01_far_normal_002.jpeg,OK,960,1280,204.21,44.98
+S001_S01_frontal_dark_001.jpeg,OK,960,1280,17.18,3.28
+S001_S01_frontal_lightside.jpeg,OK,960,1280,148.99,18.23
+S001_S01_frontal_medium_dark_001.jpeg,OK,960,1280,49.33,7.47
+S001_S01_frontal_medium_light.jpeg,OK,960,1280,166.97,12.36
+S001_S01_frontal_normal_001.jpeg,OK,960,1280,155.89,34.93
+S001_S01_frontal_normal_mediumblur_001.jpeg,OK,960,1280,158.02,4.03
+S001_S01_frontal_normal_slightlyblur_001.jpeg,OK,960,1280,168.19,5.35
+S001_S01_frontal_normal_veryblur_001.jpeg,OK,960,1280,170.16,2.14
+S001_S01_leftside_normal_001.jpeg.jpeg,OK,960,1280,160.2,36.7
+S001_S01_up_normal_001.jpeg,OK,960,1280,146.16,15.29

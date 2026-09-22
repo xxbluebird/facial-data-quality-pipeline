@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+facial/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw and identifiable facial images
+data/raw/
+data/accepted/
+data/rejected/
+
+# Environment / editor files
+.env
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

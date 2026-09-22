@@ -1,0 +1,15 @@
+filename,read_status,width,height,global_brightness,global_blur_score,face_count,face_detected,face_width,face_height,face_area_ratio,face_brightness,face_blur_score,qc_status,rejection_reason,manual_status,manual_reason,evaluation
+S001_S01_down_normal.jpeg,OK,960,1280,171.26,13.98,1,True,652.0,652.0,0.346,139.08,10.73,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_far_normal_001.jpeg,OK,960,1280,177.12,22.67,1,True,334.0,334.0,0.0908,141.54,25.68,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_far_normal_002.jpeg,OK,960,1280,204.21,44.98,1,True,239.0,239.0,0.0465,142.59,34.69,REJECT,face_too_small,REJECT,face_too_small,TRUE_REJECT
+S001_S01_frontal_dark_001.jpeg,OK,960,1280,17.18,3.28,1,True,427.0,427.0,0.1484,33.64,11.3,REJECT,underexposed,REJECT,underexposed,TRUE_REJECT
+S001_S01_frontal_lightside.jpeg,OK,960,1280,148.99,18.23,1,True,502.0,502.0,0.2051,124.81,12.44,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_frontal_medium_dark_001.jpeg,OK,960,1280,49.33,7.47,1,True,496.0,496.0,0.2002,94.83,17.16,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_frontal_medium_light.jpeg,OK,960,1280,166.97,12.36,1,True,499.0,499.0,0.2026,129.22,12.63,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_frontal_normal_001.jpeg,OK,960,1280,155.89,34.93,1,True,335.0,335.0,0.0913,127.31,43.53,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_frontal_normal_cropped_001.jpeg,OK,1200,1600,169.13,7.25,0,False,,,,,,REJECT,no_face_detected,REJECT,invalid_framing,TRUE_REJECT
+S001_S01_frontal_normal_mediumblur_001.jpeg,OK,960,1280,158.02,4.03,1,True,490.0,490.0,0.1954,127.07,4.47,REJECT,blurry,REJECT,blurry,TRUE_REJECT
+S001_S01_frontal_normal_slightlyblur_001.jpeg,OK,960,1280,168.19,5.35,1,True,502.0,502.0,0.2051,137.46,7.7,REJECT,blurry,REJECT,blurry,TRUE_REJECT
+S001_S01_frontal_normal_veryblur_001.jpeg,OK,960,1280,170.16,2.14,1,True,540.0,540.0,0.2373,129.01,3.02,REJECT,blurry,REJECT,blurry,TRUE_REJECT
+S001_S01_leftside_normal_001.jpeg.jpeg,OK,960,1280,160.2,36.7,1,True,304.0,304.0,0.0752,128.06,43.58,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_up_normal_001.jpeg,OK,960,1280,146.16,15.29,0,False,,,,,,REJECT,no_face_detected,REJECT,,TRUE_REJECT

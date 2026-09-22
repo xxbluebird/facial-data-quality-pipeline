@@ -54,8 +54,6 @@ Each image will later be evaluated for:
 - Brightness
 - Face presence
 - Number of detected faces
-- Metadata completeness
-- Duplicate records
 
 ## Data Organization
 
@@ -67,7 +65,7 @@ Image filenames follow a structured naming convention.
 
 Example:
 
-S001_session01_frontal_frontlight_001.jpg
+S001_S01_frontal_frontlight_001.jpeg
 
 ## Quality-Control Outcome
 

@@ -155,8 +155,9 @@ Rejected images are accompanied by a documented reason such as:
 
 ## Privacy and Responsible Data Handling
 
-Facial images are identifiable biometric-related data and are therefore not
-included in the public repository.
+Facial images are identifiable personal data and may constitute biometric
+data when processed for unique identification. Raw identifiable facial images
+are therefore excluded from the public repository.
 
 The project applies privacy-aware data handling principles including:
 
@@ -207,3 +208,58 @@ facial-data-quality-pipeline/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+```
+
+---
+
+## Results Visualization
+
+### Automated QC Distribution
+
+![Automated QC Distribution](reports/qc_status_distribution.png)
+
+### Rejection Reasons
+
+![Image Rejection Reasons](reports/rejection_reasons.png)
+
+---
+
+## Technologies
+
+- Python
+- OpenCV
+- Pandas
+- NumPy
+- Matplotlib
+
+---
+
+## Limitations
+
+This project is a small-scale proof of concept and is not intended to represent
+a production-scale facial data validation system.
+
+Current limitations include:
+
+- A small pilot dataset from one participant
+- QC thresholds calibrated using the same pilot dataset used for evaluation
+- No independent holdout dataset
+- Limited robustness of Haar Cascade under some non-frontal head orientations
+- No upper-brightness rejection criterion
+- No demographic-scale evaluation
+
+Future work could evaluate the pipeline using additional participants,
+independent test data, more robust face-detection methods, and additional
+image-quality metrics.
+
+---
+
+## Ethical Note
+
+This project focuses on facial-image acquisition and quality control rather
+than identity recognition.
+
+No facial-recognition or identity-classification model is trained in this
+project. Identifiable raw facial images are intentionally excluded from the
+public repository.

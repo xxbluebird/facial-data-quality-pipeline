@@ -11,5 +11,5 @@ S001_S01_frontal_normal_cropped_001.jpeg,REJECT,invalid_framing
 S001_S01_frontal_normal_mediumblur_001.jpeg,REJECT,blurry
 S001_S01_frontal_normal_slightlyblur_001.jpeg,REJECT,blurry
 S001_S01_frontal_normal_veryblur_001.jpeg,REJECT,blurry
-S001_S01_leftside_normal_001.jpeg.jpeg,ACCEPT,
-S001_S01_up_normal_001.jpeg,REJECT,
+S001_S01_leftside_normal_001.jpeg,ACCEPT,
+S001_S01_up_normal_001.jpeg,REJECT,difficult_head_orientation

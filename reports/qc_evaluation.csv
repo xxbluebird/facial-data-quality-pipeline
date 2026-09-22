@@ -11,5 +11,5 @@ S001_S01_frontal_normal_cropped_001.jpeg,OK,1200,1600,169.13,7.25,0,False,,,,,,R
 S001_S01_frontal_normal_mediumblur_001.jpeg,OK,960,1280,158.02,4.03,1,True,490.0,490.0,0.1954,127.07,4.47,REJECT,blurry,REJECT,blurry,TRUE_REJECT
 S001_S01_frontal_normal_slightlyblur_001.jpeg,OK,960,1280,168.19,5.35,1,True,502.0,502.0,0.2051,137.46,7.7,REJECT,blurry,REJECT,blurry,TRUE_REJECT
 S001_S01_frontal_normal_veryblur_001.jpeg,OK,960,1280,170.16,2.14,1,True,540.0,540.0,0.2373,129.01,3.02,REJECT,blurry,REJECT,blurry,TRUE_REJECT
-S001_S01_leftside_normal_001.jpeg.jpeg,OK,960,1280,160.2,36.7,1,True,304.0,304.0,0.0752,128.06,43.58,ACCEPT,,ACCEPT,,TRUE_ACCEPT
-S001_S01_up_normal_001.jpeg,OK,960,1280,146.16,15.29,0,False,,,,,,REJECT,no_face_detected,REJECT,,TRUE_REJECT
+S001_S01_leftside_normal_001.jpeg,OK,960,1280,160.2,36.7,1,True,304.0,304.0,0.0752,128.06,43.58,ACCEPT,,ACCEPT,,TRUE_ACCEPT
+S001_S01_up_normal_001.jpeg,OK,960,1280,146.16,15.29,0,False,,,,,,REJECT,no_face_detected,REJECT,difficult_head_orientation,TRUE_REJECT
